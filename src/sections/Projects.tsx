@@ -117,8 +117,6 @@ import "aos/dist/aos.css";
 import darkSaasLandingPage from '@/assets/images/dark-saas-landing-page.png'
 import lightSaasLandingPage from '@/assets/images/light-saas-landing-page.png'
 import aiStartupLandingPage from '@/assets/images/ai-startup-landing-page.png'
-import techweerPage from '@/assets/images/techweer.png'
-import shellshift from '@/assets/images/shellshift.png'
 import CheckCircleIcon from '@/assets/icons/check-circle.svg'
 import ArrowUpRight from '@/assets/icons/arrow-up-right.svg'
 import { SectionHeader } from '@/components/SectionHeader'
@@ -138,7 +136,7 @@ const portfolioProjects = [
       { title: 'Enabled smooth user experience%' }
     ],
     link: 'https://techweer.com/',
-    image: techweerPage,
+    image: darkSaasLandingPage,
     projectIndex: 1
   },
   {
@@ -151,7 +149,7 @@ const portfolioProjects = [
       { title: 'Better client trust' }
     ],
     link: 'https://shellshift.com/',
-    image: shellshift,
+    image: aiStartupLandingPage,
     projectIndex: 2,
   },
 ]
