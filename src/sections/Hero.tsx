@@ -140,7 +140,7 @@ export const HeroSection = () => {
           </h1>
           <p className='mt-4 text-center text-white/60 md:text-lg'>
             Hey{' '}
-            <span className='text-[#6DE8B8] font-bold'>I'm Kabir Yosaf</span>{' '}
+            <span className='text-[#6DE8B8] font-bold'>I&apos;m Kabir Yosaf</span>{' '}
             and I specialize in trasnforming designs into functional,
             high-performing web applications. I also have an expertise in{' '}
             <span className='font-bold text-[#6DE8B8]'>AI/ML</span>{' '}
@@ -154,7 +154,7 @@ export const HeroSection = () => {
           </button>
           <button className='inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl' onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}>
             <span className='font-semibold'>👋</span>
-            <span>Let's Connect</span>
+            <span>Let&apos;s Connect</span>
           </button>
         </div>
       </div>
